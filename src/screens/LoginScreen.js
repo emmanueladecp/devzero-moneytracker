@@ -108,6 +108,20 @@ export default function LoginScreen({ onLoginSuccess }) {
     onLoginSuccess(sandboxProfile);
   };
 
+  // ---------- Demo account (static) ----------
+  const handleDemoLogin = async () => {
+    const demoProfile = {
+      name: 'Demo User',
+      email: 'demo@example.com',
+      photo: null,
+      id: 'demo_user',
+      isSandbox: true,
+    };
+    await saveUserProfile(demoProfile);
+    onLoginSuccess(demoProfile);
+  };
+
+
   return (
     <KeyboardAvoidingView 
       style={styles.keyboardContainer}
@@ -179,6 +193,13 @@ export default function LoginScreen({ onLoginSuccess }) {
               activeOpacity={0.8}
             >
               <Text style={styles.buttonSandboxText}>Masuk Mode Sandbox</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.buttonSandbox, { marginTop: 12 }]}
+              onPress={handleDemoLogin}
+              activeOpacity={0.8}
+            >
+              <Text style={styles.buttonSandboxText}>Demo Login</Text>
             </TouchableOpacity>
           </View>
         </Card>
