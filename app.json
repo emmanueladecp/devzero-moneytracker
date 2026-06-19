@@ -36,7 +36,9 @@
         "@react-native-google-signin/google-signin",
         {
           "iosUrlScheme": "com.googleusercontent.apps.placeholder"
-        },
+        }
+      ],
+      [
         "expo-build-properties",
         {
           "android": {
