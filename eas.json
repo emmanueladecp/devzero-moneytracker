@@ -13,7 +13,7 @@
       "android": {
         "gradleCommand": ":app:bundleRelease",
         "releaseChannel": "production",
-        "buildType": "app-bundle",
+        "buildType": "app-bundle"
       }
     }
   }
