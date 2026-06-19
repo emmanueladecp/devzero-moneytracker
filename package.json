@@ -22,7 +22,8 @@
     "react-native-svg": "15.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "expo-build-properties": "^56.0.19"
   },
   "private": true
 }
