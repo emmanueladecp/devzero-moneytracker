@@ -13,7 +13,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.keuangan.app"
+      "bundleIdentifier": "com.developerzero.apps.moneytracker"
     },
     "android": {
       "package": "com.developerzero.apps.moneytracker",
