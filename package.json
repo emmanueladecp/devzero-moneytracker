@@ -10,20 +10,22 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "1.23.1",
-    "@react-native-google-signin/google-signin": "^13.2.0",
-    "expo": "~51.0.28",
+    "@react-native-google-signin/google-signin": "^16.1.2",
+    "expo-build-properties": "~56.0.19",
     "expo-file-system": "~17.0.1",
     "expo-print": "~13.0.1",
     "expo-sharing": "~12.0.1",
     "expo-status-bar": "~1.12.1",
     "lucide-react-native": "^1.21.0",
     "react": "18.2.0",
-    "react-native": "0.74.5",
+    "react-native": "~0.73.4",
     "react-native-svg": "15.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "expo-build-properties": "^56.0.19"
+    "expo": "^56.0.12",
+    "expo-build-properties": "^56.0.19",
+    "expo-modules-core": "^56.0.17"
   },
   "private": true
 }
