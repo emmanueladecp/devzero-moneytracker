@@ -1,27 +1,43 @@
 {
   "expo": {
-    "name": "app_keuangan",
-    "slug": "app_keuangan",
+    "name": "CatatKeuangan",
+    "slug": "catat-keuangan",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0F172A"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.keuangan.app"
     },
     "android": {
+      "package": "com.developerzero.apps.moneytracker",
+      "minSdkVersion": 23,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0F172A"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.placeholder"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f60685a5-a74f-4a3c-a820-2f36e31045a9"
+      }
     }
   }
 }
